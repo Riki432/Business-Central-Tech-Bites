@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Car Leasing Firm, USA.",
+        "Description" : "Migration from NAVISION 2016 to MSD365 Business Central for an Uber partner with Finance, Inventory Management and custom built Fleet Management module along with Integration with Microsoft CRM.",
+        "Role": "Techno-Functional Consultant"
+    },
+    {
+        "title": "Speciality Pharmaceutical Company, India.",
+        "Description" : "Support for MSD NAVISION for a pharmaceutical company to streamline all the functional process with Custom Pharma Module.",
+        "Role": "Techno-Functional Consultant"
+    },
+    {
+        "title": "Financial Processes Automation Firm, USA.",
+        "Description" : "MSD365 Business Central Integration to streamline Integration between Web Portal and Business Central ERP.",
+        "Role": "Techno Consultant"
+    },
+    {
+        "title": "IT Consultng Company, Cameroon.",
+        "Description" : "D365 Business Central Implementation for a service provider to streamline Procurement, Inventory Management, Sales, Project Management module along with CRM Integration.",
+        "Role": "Techno-Functional Consultant"
+    },
+    {
+        "title": "Security Equipment Consulting, USA.",
+        "Description" : "Implementation and Support for MSD365 Business Central for a security equipment and services organization to streamline Inventory Management, Procurement and Sales cycle with drop-shipping functionality.",
+        "Role": "Technical Consultant"
+    },
+    {
+        "title": "Cosmetics/Personal Products Retailer, Maldives.",
+        "Description" : "MSD365 Business Central and LS Central Implementation with multiple stores and warehouses, Inventory Management, Procurement and Sales Module.",
+        "Role": "Techno-Functional Consultant"
+    },
+    {
+        "title":"Media Company, USA.",
+        "Description" : "Enhancement to the existing MSD365 Business Central Implementation by adding Inbuilt Document Preview in approval workflow to reduce redunancy.",
+        "Role": "Technical Consultant"
+    }
+]

@@ -1,0 +1,40 @@
+<head>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+    
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 50vh;
+            background-color: #373D3F;
+            color:white;
+            text-align: left;
+            border-radius: 6px;
+            padding: 8px;
+    
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+        }
+    
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            translate: calc(20px);
+        }
+    </style>
+    
+</head>
+<div>
+    <ol>
+    {{ range .Site.Data.experience }}
+        <li style="padding-bottom: 8px ">
+            <div class="tooltip"> {{.title}}
+                <span class="tooltiptext"> {{.Description}} <br> <b>{{.Role}}</b></span>
+            </div>
+        </li>
+    {{ end }}
+    </ol>
+</div>
