@@ -1,8 +1,10 @@
-baseURL = 'www.example.org'
+baseURL = 'https://business-central-tech-bites.netlify.app'
 languageCode = 'en-us'
 title = 'Business Central Tech Bites'
-theme = 'Ananke'
+theme = './ananke'
 menu = 'main'
+staticDir = '/static'
+pagesDir = '/content'
 
 [params]
   favicon = '/Logo/business-central-logo.png' 
@@ -28,5 +30,5 @@ menu = 'main'
   disable = false
   ignoreConfig = false
   ignoreImports = false
-  path = 'ananke'
+  path = './ananke'
 
