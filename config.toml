@@ -1,0 +1,25 @@
+baseURL = 'www.example.org'
+languageCode = 'en-us'
+title = 'Business Central Tech Bites'
+theme = 'Ananke'
+menu = 'main'
+
+[params]
+  favicon = '/Logo/business-central-logo.png' 
+
+[[params.ananke_socials]]
+  name = "github" 
+  url = "https://github.com/Riki432"
+
+[[params.ananke_socials]]
+  name = "linkedin" 
+  url = "www.linkedin.com/in/rahul-bansode-205a2492"
+
+[[params.ananke_socials]]
+  name = "instagram" 
+  url = "https://www.instagram.com/call_me_riki/"
+
+[[params.ananke_socials]]
+  name = "twitter" 
+  url = "https://twitter.com/Rahulba02385073"
+

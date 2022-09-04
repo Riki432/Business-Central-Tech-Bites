@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>www.example.org/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/posts/ls-central/create-sales-order-quote-from-pos-in-ls-central/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/tags/ls-central/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/posts/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/tags/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/tags/technical/</loc>
+    <lastmod>2022-09-04T17:24:33+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/tags/business-central/</loc>
+    <lastmod>2022-09-04T16:08:29+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/posts/business-central/report-does-not-have-a-layout-type-none/</loc>
+    <lastmod>2022-09-04T16:08:29+05:30</lastmod>
+  </url><url>
+    <loc>www.example.org/categories/</loc>
+  </url>
+</urlset>
