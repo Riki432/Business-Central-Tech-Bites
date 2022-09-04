@@ -11,7 +11,7 @@ menu: main
 
 # Hey!
 
-My name is Rahul Bansode and for the past 2 years, I've been working as a Techno-Functional Consultant.
+My name is Rahul Bansode and for the past {{<currentExp>}}I've been working as a Techno-Functional Consultant.
 
 I have completed my Bachelor's from Mumbai University and a short course regarding ERP and Business Central which was the launch pad for me, in this field.
 

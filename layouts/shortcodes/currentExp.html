@@ -1,0 +1,29 @@
+<block id="currentExp"></block>
+
+<script type="text/javascript">
+    today = new Date();
+    //16th July, 2020 as start date
+    past = new Date(2020,06,16); 
+    // remember this is equivalent to 16 06 2010
+    //dates in js are counted from 0, so 06 is july
+    var message = '';
+
+function calcDate(date1,date2) {
+    const diff = Math.floor(date1.getTime() - date2.getTime());
+    const day = 1000 * 60 * 60 * 24;
+
+    const days = Math.floor(diff/day);
+    const months = Math.floor(days/31);
+    const years = Math.floor(months/12);
+    
+    message = '';
+    message += years + " years and ";
+    message += (months % 12) + " month(s),";
+    return message;
+}
+
+const currentExp = document.getElementById('currentExp');
+if (currentExp !== null) {
+    currentExp.innerHTML = calcDate(today, past).trim();
+}
+</script>
