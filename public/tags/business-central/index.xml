@@ -6,7 +6,16 @@
     <description>Recent content in Business Central on Business Central Tech Bites</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2022 16:08:29 +0530</lastBuildDate><atom:link href="www.example.org/tags/business-central/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Sep 2022 17:33:31 +0530</lastBuildDate><atom:link href="www.example.org/tags/business-central/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Odata Bound Actions</title>
+      <link>www.example.org/posts/business-central/odata-bound-actions/</link>
+      <pubDate>Sun, 04 Sep 2022 17:33:31 +0530</pubDate>
+      
+      <guid>www.example.org/posts/business-central/odata-bound-actions/</guid>
+      <description>How to interact with and use OData bound actions</description>
+    </item>
+    
     <item>
       <title>Report Does Not Have a Layout Type None</title>
       <link>www.example.org/posts/business-central/report-does-not-have-a-layout-type-none/</link>

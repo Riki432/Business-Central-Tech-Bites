@@ -6,7 +6,16 @@
     <description>Recent content on Business Central Tech Bites</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Sep 2022 17:24:33 +0530</lastBuildDate><atom:link href="www.example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Sep 2022 17:33:31 +0530</lastBuildDate><atom:link href="www.example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Odata Bound Actions</title>
+      <link>www.example.org/posts/business-central/odata-bound-actions/</link>
+      <pubDate>Sun, 04 Sep 2022 17:33:31 +0530</pubDate>
+      
+      <guid>www.example.org/posts/business-central/odata-bound-actions/</guid>
+      <description>How to interact with and use OData bound actions</description>
+    </item>
+    
     <item>
       <title>Create Sales Order Quote From POS in LS Central</title>
       <link>www.example.org/posts/ls-central/create-sales-order-quote-from-pos-in-ls-central/</link>
@@ -23,6 +32,16 @@
       
       <guid>www.example.org/posts/business-central/report-does-not-have-a-layout-type-none/</guid>
       <description>How to resolve “Report ___ does not have a layout of type None.” error</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>www.example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.example.org/contact/</guid>
+      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
+Your NameEmail AddressAn email address is required.Message</description>
     </item>
     
   </channel>
