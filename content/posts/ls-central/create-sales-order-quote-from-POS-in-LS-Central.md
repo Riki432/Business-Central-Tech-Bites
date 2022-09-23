@@ -2,7 +2,8 @@
 title: "Create Sales Order Quote From POS in LS Central"
 date: 2022-09-04T17:24:33+05:30
 draft: false
-tags: ['LS Central', 'Technical']
+tags: ['LS Central']
+categories: ['Technical']
 summary: 'How to create a Sales Order or Sales Quote directly from POS'
 featured_image : 'https://i.ibb.co/XJx8mPz/image.png'
 ---

@@ -2,7 +2,8 @@
 title: "Working with Odata Bound Actions"
 date: 2022-09-04T17:33:31+05:30
 draft: false
-tags: ['Business Central','Technical']
+tags: ['Business Central']
+categories: ['Technical']
 summary: 'How to interact with and use OData bound actions'
 featured_image: 'https://i.ibb.co/vVq7XGf/image.png'
 ---

@@ -2,7 +2,8 @@
 title: "Report Does Not Have a Layout Type None"
 date: 2022-09-04T16:08:29+05:30
 draft: false
-tags: ['Business Central', 'Technical']
+tags: ['Business Central']
+categories: ['Technical']
 summary: 'How to resolve “Report ___ does not have a layout of type None.” error'
 description: 'How to resolve “Report ___ does not have a layout of type None.” error'
 featured_image : 'https://i.ibb.co/6RV4Lw7/image.png'

@@ -2,7 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-tags: ['LS Central', 'Technical', 'Functional']
+tags: ['LS Central']
+categories: ['Technical', 'Functional']
 summary: ''
 featured_image: ''
 ---

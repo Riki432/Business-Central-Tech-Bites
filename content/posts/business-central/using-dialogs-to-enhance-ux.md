@@ -2,7 +2,8 @@
 title: "Use Dialogs to enhance User Experience"
 date: 2022-09-23T18:13:16+05:30
 draft: false
-tags: ['Business Central','Technical']
+tags: ['Business Central']
+categories: ['Technical']
 summary: 'How to use Dialogs to enhance User Experience in Business Central'
 featured_image: 'https://i.ibb.co/dKgRRjH/image.png'
 ---

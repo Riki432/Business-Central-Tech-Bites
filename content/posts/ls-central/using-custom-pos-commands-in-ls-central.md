@@ -2,7 +2,8 @@
 title: "Using Custom POS Commands in LS Central"
 date: 2022-09-05T14:05:57+05:30
 draft: false
-tags: ['LS Central', 'Technical']
+tags: ['LS Central']
+categories: ['Technical']
 summary: ''
 featured_image: 'https://i.ibb.co/RckWhh5/image.png'
 summary: 'How to add Custom functionality through the use of POS External Commands'

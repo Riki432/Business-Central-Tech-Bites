@@ -7,6 +7,10 @@ menu = 'main'
 staticDir = '/static'
 pagesDir = '/content'
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [params]
   favicon = '/Profile/profilePic.png' 
   site_logo =  '/Profile/profilePic.png'

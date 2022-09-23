@@ -1,8 +1,9 @@
 ---
-title: "Pos Data Tables"
+title: "POS Data Tables"
 date: 2022-09-05T14:29:37+05:30
 draft: false
-tags: ['LS Central', 'Technical']
+tags: ['LS Central']
+categories: ['Technical']
 summary: 'How to create custom Data Tables which can be used on POS to display or interact with Data.'
 featured_image: 'https://i.ibb.co/RzVyC97/image.png'
 ---

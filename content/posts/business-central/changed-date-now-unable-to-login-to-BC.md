@@ -2,7 +2,8 @@
 title: "Changed Date Now Unable to Login to BC"
 date: 2022-09-05T13:52:09+05:30
 draft: false
-tags: ['Business Central','Technical', 'Functional']
+tags: ['Business Central']
+categories: ['Technical']
 summary: 'How to resolve the error where changing date on the host sever causes lock out of Business Central'
 featured_image: 'https://i.ibb.co/mJ4K1zk/image.png'
 ---
