@@ -1,4 +1,4 @@
-baseURL = 'https://business-central-tech-bites.netlify.app'
+baseURL = 'https://tech-bites.netlify.app'
 languageCode = 'en-us'
 title = 'Tech Bites'
 description = "Bite sized blogs about the stuff I've learned over the years!"
