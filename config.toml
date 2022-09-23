@@ -33,4 +33,3 @@ pagesDir = '/content'
   ignoreConfig = false
   ignoreImports = false
   path = './ananke'
-
