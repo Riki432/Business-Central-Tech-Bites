@@ -17,3 +17,4 @@ featured_image: ''
 ## Configuration
 
 ## Conclusion
+Happy Coding!

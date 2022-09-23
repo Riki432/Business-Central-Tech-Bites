@@ -13,7 +13,7 @@ pagesDir = '/content'
 
 [params]
   favicon = '/Profile/profilePic.png' 
-  site_logo =  '/Profile/profilePic.png'
+  site_logo = '/Profile/profilePic.png'
 
 [[params.ananke_socials]]
   name = "github" 
