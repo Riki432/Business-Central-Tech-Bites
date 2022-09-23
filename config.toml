@@ -1,13 +1,15 @@
 baseURL = 'https://business-central-tech-bites.netlify.app'
 languageCode = 'en-us'
-title = 'Business Central Tech Bites'
+title = 'Tech Bites'
+description = "Bite sized blogs about the stuff I've learned over the years!"
 theme = './ananke'
 menu = 'main'
 staticDir = '/static'
 pagesDir = '/content'
 
 [params]
-  favicon = '/Logo/business-central-logo.png' 
+  favicon = '/Profile/profilePic.png' 
+  site_logo =  '/Profile/profilePic.png'
 
 [[params.ananke_socials]]
   name = "github" 
