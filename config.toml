@@ -10,7 +10,7 @@ menu = 'main'
   tag = 'tags'
 
 [params]
-  favicon =  '/Profile/profilePic.png' 
+  favicon =  '/Profile/favicon.ico' 
   site_logo =  '/Profile/profilePic.png'
 
 [[params.ananke_socials]]
