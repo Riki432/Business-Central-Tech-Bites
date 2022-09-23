@@ -4,8 +4,6 @@ title = 'Tech Bites'
 description = "Bite sized blogs about the stuff I've learned over the years!"
 theme = './ananke'
 menu = 'main'
-staticDir = '/static'
-pagesDir = '/content'
 
 [taxonomies]
   category = 'categories'
