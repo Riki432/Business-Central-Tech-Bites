@@ -1,5 +1,5 @@
 ---
-title: "Using Custom Pos Commands in Ls Central"
+title: "Using Custom POS Commands in LS Central"
 date: 2022-09-05T14:05:57+05:30
 draft: false
 tags: ['LS Central', 'Technical']
