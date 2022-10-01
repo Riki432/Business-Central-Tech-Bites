@@ -1,7 +1,7 @@
 ---
 title: "Configuring Web Services for LS v16"
 date: 2022-02-23T22:08:26+05:30
-draft: false*
+draft: false
 tags: ['LS Central']
 categories: ['Technical']
 summary: 'How to configure WebServices in LS v16'
