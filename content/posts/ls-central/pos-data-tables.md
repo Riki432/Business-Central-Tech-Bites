@@ -5,7 +5,7 @@ draft: false
 tags: ['LS Central']
 categories: ['Technical']
 summary: 'How to create custom Data Tables which can be used on POS to display or interact with Data.'
-featured_image: 'https://i.ibb.co/RzVyC97/image.png'
+featured_image: '/content/images/ls-central/pos-data-tables/Image3.png'
 ---
 
 # Introduction
@@ -40,7 +40,8 @@ The most important fields in the General Tab are:
 | Default Search Command    | You can specify different commands like  |
 | Distribution Location     | Specifies where the POS Data Table should get the data from. Do note that Web Service configuration should be done for this to work and if the record you selected does not exist on your local system, you may get an error. |
 
-![Image 1](https://i.ibb.co/JsqLZvt/image.png)
+<!-- ![Image 1](https://i.ibb.co/JsqLZvt/image.png) -->
+![Image 1](/content/images/ls-central/pos-data-tables/Image1.png)
 
 For Data Table Columns:
 In this tab, we specify the columns we want in our Data Table and the properties of those columns.
@@ -60,9 +61,11 @@ In this tab, we specify the columns we want in our Data Table and the properties
 | Filter Tags               |	Used to set a filter using "POS Tags" on that column. |
 | POS Command Code          |	Used to specify a Command which is to be executed when user clicks on this column. A good example of this is the "Quantity" column of main POS Screen which executes the "Change Quantity" command when clicked on it. |
 
-![Image 2](https://i.ibb.co/5B1tfNq/image.png)
+<!-- ![Image 2](https://i.ibb.co/5B1tfNq/image.png) -->
+![Image 2](/content/images/ls-central/pos-data-tables/Image2.png)
 
-![Image 3](https://i.ibb.co/RzVyC97/image.png)
+<!-- ![Image 3](https://i.ibb.co/RzVyC97/image.png) -->
+![Image 3](/content/images/ls-central/pos-data-tables/Image3.png)
 
 ## Conclusion
 Thus, we saw how to create our own Data Table and the different properties associated with a Data Table.

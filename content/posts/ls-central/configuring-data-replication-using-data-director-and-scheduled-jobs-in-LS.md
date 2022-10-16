@@ -4,7 +4,7 @@ date: 2022-03-02T22:17:01+05:30
 draft: false
 tags: ['LS Central']
 categories: ['Technical']
-summary: 'How toc configure data replication in LS v16 using Data Director and Scheduled Jobs'
+summary: 'How to configure data replication in LS v16 using Data Director and Scheduled Jobs'
 featured_image: ''
 ---
 
@@ -31,7 +31,8 @@ In the Sub Jobs, we define where to get the schemas of the table, the tables to 
 
 ### General
 
-![Image](https://i.ibb.co/hcSfRMH/image.png)
+<!-- ![Image](https://i.ibb.co/hcSfRMH/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image1.png)
 
 1. **Job ID** :- A unique Identifier for this Scheduled Job.
 2. **Scheduler Job Type Code**:- It is a kind of category for this Job, we can use this category as a filter when we configure NAS Services.
@@ -39,7 +40,8 @@ In the Sub Jobs, we define where to get the schemas of the table, the tables to 
 
 ### Location Settings
 
-![Image](https://i.ibb.co/VQhBgbc/image.png)
+<!-- ![Image](https://i.ibb.co/VQhBgbc/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image2.png)
 
 In this tab, we specify where the Data is supposed to come from and where the data is supposed to go.
 There are multiple ways to configure this,
@@ -48,16 +50,19 @@ There are multiple ways to configure this,
 - Set the "From Dist. Restrictions to "Include List".
 - Click on Navigate -> Jobs -> Sender Location List.
 
-![Image](https://i.ibb.co/F5P1R85/image.png)
+<!-- ![Image](https://i.ibb.co/F5P1R85/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image3.png)
 
 - Add all the locations that you want to pull the data from.
 
-![Image](https://i.ibb.co/1QWK622/image.png)
+<!-- ![Image](https://i.ibb.co/1QWK622/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image4.png)
 
 - Set "Distribution Restrictions" to "Single Location"
 - Set the Location in "To-Location Code" field.
 
-![Image](https://i.ibb.co/2tGLbN6/image.png)
+<!-- ![Image](https://i.ibb.co/2tGLbN6/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image5.png)
 
 2. From Single Location to Multiple Locations - This is the similar to the previous one simply reversing where we set the values.
 
@@ -65,18 +70,21 @@ There are multiple ways to configure this,
 - Set "Distribution Sublocations" to "Included in Replic.", this field is used to specify whether Data should be sent to sublocations(POS Terminals) or not.
 - Set "Distribution Restrictions" to "Include List" and Go to Navigate > Jobs > "Receiver Locations Include/Exclude."
 
-![Image](https://i.ibb.co/nkb5k95/image.png)
+<!-- ![Image](https://i.ibb.co/nkb5k95/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image6.png)
 
 - Add all the locations you want to send the Data to.
 
-![Image](https://i.ibb.co/f0cms4H/image.png)
+<!-- ![Image](https://i.ibb.co/f0cms4H/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image7.png)
 
 3. From Multiple Locations to Multiple Locations
 - Simply set Include List on both sides and add all the locations that the data is supposed to come from and where it is supposed to go.
 
 ### Schedule Details
 
-![Image](https://i.ibb.co/MMXv3gw/image.png)
+<!-- ![Image](https://i.ibb.co/MMXv3gw/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image8.png)
 
 Here we specify how often this Job is supposed to run.
 
@@ -88,7 +96,8 @@ Do note that you need to have NAS Services configured for the jobs to run automa
 
 ### Data Replication
 
-![Image](https://i.ibb.co/s28Nnd6/image.png)
+<!-- ![Image](https://i.ibb.co/s28Nnd6/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS/Image9.png)
 
 Here we have to define the "Subjobs", which are in essence, tables which are to be replicated. 
 

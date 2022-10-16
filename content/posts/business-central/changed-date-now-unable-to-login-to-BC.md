@@ -5,7 +5,7 @@ draft: false
 tags: ['Business Central']
 categories: ['Technical']
 summary: 'How to resolve the error where changing date on the host sever causes lock out of Business Central'
-featured_image: 'https://i.ibb.co/mJ4K1zk/image.png'
+featured_image: '/content/images/business-central/changed-date-now-unable-to-login-to-BC/Image1.png'
 ---
 
 # Introduction
@@ -28,7 +28,7 @@ The way I stumbled across it being a date related issue is that in the Response 
 
 When I switched the System Date back to the date mentioned in the Response headers, everything seemed to be working again.
 
-![Problem Verified](https://i.ibb.co/Y7bLcPX/image.png)
+![Problem Verified](/content/images/business-central/changed-date-now-unable-to-login-to-BC/Image1.png)
 
 ## Solution
 This issue is caused because when the system date is changed, the same is changed in IIS but when you change it back IIS does not refresh it and we have to manually reset it. 
@@ -45,7 +45,7 @@ The other way, which is much simpler in my opinion, is to simply **restart the S
 
 This stops all the services and restarts them which forces the IIS to reset as well.
 
-![Solution](https://i.ibb.co/mJ4K1zk/image.png)
+![Solution](/content/images/business-central/changed-date-now-unable-to-login-to-BC/Image2.png)
 
 ## Conclusion
 Thus in this blog, we saw how to resolve the issue of being unable to login after change Server Date in Business Central.

@@ -5,7 +5,7 @@ draft: false
 tags: ['Business Central']
 categories: ['Technical']
 summary: 'How to use Task Scheduler in Business Central'
-featured_image: 'https://i.ibb.co/8Pb6LFW/image.png'
+featured_image: '/content/images/business-central/using-task-scheduler-in-business-central/Image2.png'
 ---
 
 # Introduction
@@ -35,7 +35,8 @@ The following procedures are available for the Task Scheduler data type:
 
 5. *CancelTask()* - Sets the specified Task's status to Cancel. A Task can only be set to cancel if it is in pending state. A task that is in progress cannot be cancelled.
 
-![alt](https://i.ibb.co/gWCm5hG/image.png)
+<!-- ![alt](https://i.ibb.co/gWCm5hG/image.png) -->
+![Image](/content/images/business-central/using-task-scheduler-in-business-central/Image1.png)
 
 In case the main Codeunit hits an exception then there are two cases:
 - The exception is retriable :- Business Central will re-try the main codeunit a specific number of times with a specific time interval, if it is unable to complete then the task is failed.
@@ -48,7 +49,8 @@ Further if there is a failure codeunit defined then Business Central will run th
 I have created an action which creates a simple task for all the companies available to the User. After that action is called, we can see that there are four separate sessions created with the same codeunit for different companies.
 The below is the screenshot of the page - Scheduled Tasks
 
-![alt](https://i.ibb.co/8Pb6LFW/image.png)
+<!-- ![alt](https://i.ibb.co/8Pb6LFW/image.png) -->
+![Image](/content/images/business-central/using-task-scheduler-in-business-central/Image2.png)
 
 One **important** thing to note before using Scheduled Tasks is that you need to be a **Licensed User** to use scheduled tasks, for example if there is a API which is trying to create a Scheduled Task, that is going to fail, it's a design choice by Microsoft and so far I haven't been able to come up with a work around for it.
 

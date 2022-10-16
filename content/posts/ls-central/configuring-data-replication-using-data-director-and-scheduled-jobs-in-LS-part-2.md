@@ -5,11 +5,11 @@ draft: false
 tags: ['LS Central']
 categories: ['Technical']
 summary: 'How to configure sub-jobs for Data Replication using Data Director and Scheduled Jobs in LS v16'
-featured_image: ''
+featured_image: '/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image7.png'
 ---
 
 # Introduction
-In the previous [post](/posts/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-ls/), we saw how to configure the Schedule Job Header, this time we will configure the Sub-jobs.
+In the previous [post](/posts/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/), we saw how to configure the Schedule Job Header, this time we will configure the Sub-jobs.
 
 In Sub-jobs, we can define the Table structures to be followed, Tables the Data is supposed to be sent to, filters, replication counter fields and so on. 
 
@@ -27,7 +27,8 @@ In Sub-jobs, we can define the Table structures to be followed, Tables the Data 
 
 ### General 
 
-![Image](https://i.ibb.co/XFxNHGN/image.png)
+<!-- ![Image](https://i.ibb.co/XFxNHGN/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image1.png)
 
 1. **ID**:- Unique Identifier for the Sub-job.
 
@@ -53,7 +54,8 @@ Note:- Please use the delete operations carefully as it may cause unintended dat
 
 ### Replication
 
-![Image](https://i.ibb.co/6FzDJJ5/image.png)
+<!-- ![Image](https://i.ibb.co/6FzDJJ5/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image2.png)
 
 1. **Action Table ID**:- This field is automatically updated when "Replication Method" is set to "By Actions."
 2. **Move Actions**:- Specifies whether "Actions" should be transferred along with Data.
@@ -68,7 +70,8 @@ Please do note that none of the fields mentioned in the "Replication" tab are co
 
 ### Transfer Field List
 
-![Image](https://i.ibb.co/C9H8Pmr/image.png)
+<!-- ![Image](https://i.ibb.co/C9H8Pmr/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image3.png)
 
 Go to Navigate > Sub-job > Transfer Field List
 
@@ -82,7 +85,8 @@ Another practical example would be, When transferring "User" table, if we simply
 
 ### From Table Filters
 
-![Image](https://i.ibb.co/wJqDzRV/image.png)
+<!-- ![Image](https://i.ibb.co/wJqDzRV/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image4.png)
 
 Go to Navigate > Sub-job > From-Table Filters
 
@@ -90,7 +94,8 @@ Here we can specify filters to be applied to the source table.
 
 ### Linked Tables:
 
-![Image](https://i.ibb.co/F52KxYB/image.png)
+<!-- ![Image](https://i.ibb.co/F52KxYB/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image5.png)
 
 Go to Navigate > Linked Data > Linked Tables
 
@@ -98,11 +103,13 @@ Here we can specify data from which other tables has to be pulled along the main
 
 We can also define field mapping for these tables by going to Navigate > Linked Table> Field List.
 
-![Image](https://i.ibb.co/C5TXbH4/image.png)
+<!-- ![Image](https://i.ibb.co/C5TXbH4/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image6.png)
 
 To define the link and/or filters on this table, go to Navigate > Linked Table > Filters and Links.
 
-![Image](https://i.ibb.co/f1x0H0F/image.png)
+<!-- ![Image](https://i.ibb.co/f1x0H0F/image.png) -->
+![Image](/content/images/ls-central/configuring-data-replication-using-data-director-and-scheduled-jobs-in-LS-part-2/Image7.png)
 
 ## Conclusion
 

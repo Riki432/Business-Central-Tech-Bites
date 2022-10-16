@@ -6,13 +6,14 @@ tags: ['Business Central']
 categories: ['Technical']
 summary: 'How to resolve “Report ___ does not have a layout of type None.” error'
 description: 'How to resolve “Report ___ does not have a layout of type None.” error'
-featured_image : 'https://i.ibb.co/6RV4Lw7/image.png'
+featured_image : '/content/images/business-central/report-does-not-have-a-layout-type-none/Image1.png'
 ---
 # Introduction
 
 Have you ever faced the error: “Report ___ does not have a layout of type None.”
 
-![Error Message](https://i.ibb.co/6RV4Lw7/image.png)
+<!-- ![Error Message](https://i.ibb.co/6RV4Lw7/image.png) -->
+![Error Message](/content/images/business-central/report-does-not-have-a-layout-type-none/Image1.png)
 
 Here’s how you can resolve it.
 
@@ -33,7 +34,8 @@ Furthermore you can also resolve this error by using the report rendering sectio
 
 However be sure to define the **DefaultRenderingLayout** property for the report to specify which of the layouts defined should be considered as default.
 
-![Code Snippet](https://i.ibb.co/vkgQfCD/image.png)
+<!-- ![Code Snippet](https://i.ibb.co/vkgQfCD/image.png) -->
+![Code Snippet](/content/images/business-central/report-does-not-have-a-layout-type-none/Image2.png)
 
 ---
 

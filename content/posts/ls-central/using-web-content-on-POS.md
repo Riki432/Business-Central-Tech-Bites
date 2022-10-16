@@ -5,7 +5,7 @@ draft: false
 tags: ['LS Central']
 categories: ['Technical', 'Functional']
 summary: 'How to use Web Content on POS in LS v16'
-featured_image: 'https://i.ibb.co/XxrG4Pz/image.png'
+featured_image: '/content/images/ls-central/using-web-content-on-POS/Image9.png'
 ---
 
 # Introduction
@@ -29,45 +29,55 @@ In this blog, I'll be demonstrating how to configure the same.
 
 Open Business Central and search for POS Terminals.
 
-![Image](https://i.ibb.co/9nNcwpn/image.png)
+<!-- ![Image](https://i.ibb.co/9nNcwpn/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image1.png)
 
 Open the POS Terminal for the current Store and set the "Item HTML" and "Item Image" property to true.
 
-![Image](https://i.ibb.co/VL3jB3p/image.png)
+<!-- ![Image](https://i.ibb.co/VL3jB3p/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image2.png)
 
 Search for Retail Items and open the Item you want to add description and image for.
 
-![Image](https://i.ibb.co/xXtRzxX/image.png)
+<!-- ![Image](https://i.ibb.co/xXtRzxX/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image3.png)
 
 Open the Item Card and Go to Navigate -> Master Data -> Item HTML. 
 
-![Image](https://i.ibb.co/LgjH2RL/image.png)
+<!-- ![Image](https://i.ibb.co/LgjH2RL/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image4.png)
 
 Here you can specify the description for the Item that you want to be displayed on the POS and click on Save. 
 
 For instance:
 
-![Image](https://i.ibb.co/9TjgXq4/image.png)
+<!-- ![Image](https://i.ibb.co/9TjgXq4/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image5.png)
 
 After that go to Navigate -> Master Data -> Images and click on New.
 
-![Image](https://i.ibb.co/hYJn7hv/image.png)
+<!-- ![Image](https://i.ibb.co/hYJn7hv/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image6.png)
 
 Click on Import and select the Image of that Item and then Click on OK.
 
-![Image](https://i.ibb.co/1JBWnqY/image.png)
+<!-- ![Image](https://i.ibb.co/1JBWnqY/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image7.png)
 
 Go to POS and search for the Item.
 
-![Image](https://i.ibb.co/10Kggp8/image.png)
+<!-- ![Image](https://i.ibb.co/10Kggp8/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image8.png)
 
 Double Click on the description of that Item to see the Image and the HTML Content.
 
-![Image](https://i.ibb.co/XxrG4Pz/image.png)
+<!-- ![Image](https://i.ibb.co/XxrG4Pz/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image9.png)
 
 You can even embed Videos if required!
 
-![Image](https://i.ibb.co/SyxrmCC/image.png)
+<!-- ![Image](https://i.ibb.co/SyxrmCC/image.png) -->
+![Image](/content/images/ls-central/using-web-content-on-POS/Image10.png)
 
 ## Conclusion
 

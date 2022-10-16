@@ -5,7 +5,7 @@ draft: false
 tags: ['LS Central']
 categories: ['Technical']
 summary: 'How to configure Logo Printing on POS for LS v16'
-featured_image: 'https://i.ibb.co/gVxwwsm/image.png'
+featured_image: '/content/images/ls-central/configuring-logo-printing-on-POS/Image2.png'
 ---
 
 # Introduction
@@ -40,13 +40,15 @@ Store the Image on the local system, make sure the folder and the image do not r
 
 In Business Central, search for POS Printers and open the POS Receipt Printer which you are using. 
 
-![Image](https://i.ibb.co/Nt3BD61/image.png)
+<!-- ![Image](https://i.ibb.co/Nt3BD61/image.png) -->
+![Image](/content/images/ls-central/configuring-logo-printing-on-POS/Image1.png)
 
 In the Logo tab, add the location of the Image and set the other properties. 
 
 Since, we are using the Image which is on our Local System, set the Logo Type as "Download".
 
-![Image](https://i.ibb.co/gVxwwsm/image.png)
+<!-- ![Image](https://i.ibb.co/gVxwwsm/image.png) -->
+![Image](/content/images/ls-central/configuring-logo-printing-on-POS/Image2.png)
 
 Open the POS and generate a POS Receipt. 
 

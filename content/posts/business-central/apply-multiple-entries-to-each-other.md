@@ -5,7 +5,7 @@ draft: false
 tags: ['Business Central']
 categories: ['Technical']
 summary: 'How to apply multiple posted entries to each other in Business Central using AL'
-featured_image: 'https://i.ibb.co/Nsc27Bd/image.png'
+featured_image: '/content/images/business-central/apply-multiple-entries-to-each-other/Image6.png'
 ---
 
 # Introduction
@@ -22,13 +22,15 @@ As such, I spent a good portion of my day debugging the process of applying entr
 Business Central OnPrem/Cloud
 
 ## Configuration
-![Sample](https://i.ibb.co/yF5KwVd/image.png)
+<!-- ![Image](https://i.ibb.co/yF5KwVd/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image1.png)
 
 Here as an example I'm using a processing report to iterate over all the open Payments in the system and the indented dataitem will iterate over all the open Invoices of the same Customer. 
 
 The method of iteration and validations may vary however the general logic will remain the same.
 
-![Image](https://i.ibb.co/nR8TRDx/image.png)
+<!-- ![Image](https://i.ibb.co/nR8TRDx/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image2.png)
 
 This is what happens in the background when we click the "Apply Entries" action on a Customer Ledger Entry (I'm using Payment entry in this instance) in the background.
 
@@ -44,7 +46,8 @@ Commit();
 
 Here, after this we set the selected Customer Ledger Entry on the Apply Customer Entries Worksheet and display all the open entries which can be applied against it.
 
-![Image](https://i.ibb.co/GvXfdH7/image.png)
+<!-- ![Image](https://i.ibb.co/GvXfdH7/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image3.png)
 
 This is what happens, when we select an entry and click on the "Set Applies-To-ID" action.
 
@@ -58,7 +61,8 @@ It calls the *SetApplId* procedure of the **Cust. Entry-SetAppl.ID"** Codeunit [
 - "Amount to Apply" 
 
 
-![Image](https://i.ibb.co/PwqwfVw/image.png)
+<!-- ![Image](https://i.ibb.co/PwqwfVw/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image4.png)
 
 Then, after we click on the "Post Application" action, standard Business Central allows us to change some parameters regarding the posting by using the "Post Application" page.
 
@@ -71,7 +75,8 @@ if ACTION::OK = PostApplication.RunModal() then begin
     end else
         Error(ApplicationProcessCanceledErr);
 ```
-![Image](https://i.ibb.co/yPyxjRG/image.png)
+<!-- ![Image](https://i.ibb.co/yPyxjRG/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image5.png)
 
 Since, we are going this programatically, we'll set the values we need directly.
 
@@ -93,7 +98,8 @@ end;
 CustEntryApplyPostedEntries.Apply(Invoices, Rec_ApplyUnapplyParameters);
 ```
 
-![Image](https://i.ibb.co/Nsc27Bd/image.png)
+<!-- ![Image](https://i.ibb.co/Nsc27Bd/image.png) -->
+![Image](/content/images/business-central/apply-multiple-entries-to-each-other/Image6.png)
 
 You can find the entire source code [here](https://pastebin.com/wr8jHsXf).
 

@@ -5,7 +5,7 @@ draft: false
 tags: ['LS Central']
 categories: ['Technical']
 summary: 'How to configure WebServices in LS v16'
-featured_image: 'https://i.ibb.co/DV7W3v8/image.png'
+featured_image: '/content/images/ls-central/configuring-web-services-for-LS16/Image8.png'
 ---
 
 # Introduction
@@ -29,7 +29,8 @@ Disadvantage of using Web Services is that since they are inherently depending o
 
 Search for "Web Service Setup" in your Business Central system and Set the "Web Service is Active" to true.
 
-![Image](https://i.ibb.co/chPmpXX/image.png)
+<!-- ![Image](https://i.ibb.co/chPmpXX/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image1.png)
 
 Then in the "Server" tab, update the following fields:
 
@@ -37,17 +38,20 @@ Setting "Only Local Request" to true, ensure that the data Web Services pulls is
 
 Please note that if you're setting up "Web Service" to point to a remote database, as opposed to Local database shown in this blog, the parameters will differ accordingly.
 
-![Image](https://i.ibb.co/J34vb46/image.png)
+<!-- ![Image](https://i.ibb.co/J34vb46/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image2.png)
 
 In case, there are any issues with the Web Services, we can use Logs to debug them. 
 
 Do keep in mind that these Logs tend to become large in size rapidly which is why you should only use them for testing and debugging.
 
-![Image](https://i.ibb.co/8xqhX1S/image.png)
+<!-- ![Image](https://i.ibb.co/8xqhX1S/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image3.png)
 
 As web services require credentials before they return data, we have to set these credentials in the "Client Credentials" tab.
 
-![Image](https://i.ibb.co/qncP3V8/image.png)
+<!-- ![Image](https://i.ibb.co/qncP3V8/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image4.png)
 
 If your system is using "NavUserPassword" authentication, then use those credentials and if it is "Windows" authentication then use the windows login credentials.
 
@@ -57,21 +61,25 @@ If, after entering credentials, you get some response then these credentials are
 
 The returned response may look something like this:
 
-![Image](https://i.ibb.co/YfLBV2v/image.png)
+<!-- ![Image](https://i.ibb.co/YfLBV2v/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image5.png)
 
 Go to "Actions" then "Functions" and then click on all the "Insert **" actions consecutively.
 
-![Image](https://i.ibb.co/K5rkpC6/image.png)
+<!-- ![Image](https://i.ibb.co/K5rkpC6/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image6.png)
 
 After the last action, "Insert Default Settings Store" you should get the following message.
 
-![Image](https://i.ibb.co/d2qbFRM/image.png)
+<!-- ![Image](https://i.ibb.co/d2qbFRM/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image7.png)
 
 To confirm whether Web Service Setup is done successfully, you use the "Test Web Connection" action. 
 
 If everything is configured properly this is the message you should get.
 
-![Image](https://i.ibb.co/DV7W3v8/image.png)
+<!-- ![Image](https://i.ibb.co/DV7W3v8/image.png) -->
+![Image](/content/images/ls-central/configuring-web-services-for-LS16/Image8.png)
 
 ## Conclusion
 

@@ -5,7 +5,7 @@ draft: false
 tags: ['LS Central']
 categories: ['Functional']
 summary: 'How to block Items on POS in LS Central'
-featured_image: 'https://i.ibb.co/jrNQcX1/image.png'
+featured_image: '/content/images/ls-central/block-items-on-pos/Image6.png'
 ---
 
 # Introduction
@@ -24,25 +24,31 @@ All of this is done using another related table known as "Item Status"
 ## Configuration
 1. Open the Retail Item Card for the Item you want to block.
 
-![Image](https://i.ibb.co/8BH9CWm/image.png)
+<!-- ![Image](https://i.ibb.co/8BH9CWm/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image1.png)
 
 2. Open the "Item Status" for that Item.
 
-![Image](https://i.ibb.co/Hgytc0T/image.png)
+<!-- ![Image](https://i.ibb.co/Hgytc0T/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image2.png)
 
 3. Click on the "Status Code" and Click on "Select from full list"
 
-![Image](https://i.ibb.co/pfVH1KH/image.png)
+<!-- ![Image](https://i.ibb.co/pfVH1KH/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image3.png)
 
-![Image](https://i.ibb.co/k3yb1D1/image.png)
+<!-- ![Image](https://i.ibb.co/k3yb1D1/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image4.png)
 
 4. Create a new record with code "BLOCKED" and enable all the fields.
 
 5. Here, you can see all the detailed controls available.
 
-![Image](https://i.ibb.co/vX0K71T/image.png)
+<!-- ![Image](https://i.ibb.co/vX0K71T/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image5.png)
 
-![Image](https://i.ibb.co/jrNQcX1/image.png)
+<!-- ![Image](https://i.ibb.co/jrNQcX1/image.png) -->
+![Image](/content/images/ls-central/block-items-on-pos/Image6.png)
 
 ## Conclusion
 Thus, we saw how we can Block Items on POS in LS Central and other finer controls available at our disposal in LS Central.
