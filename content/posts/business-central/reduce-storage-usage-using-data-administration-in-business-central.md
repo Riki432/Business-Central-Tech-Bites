@@ -3,7 +3,7 @@ title: "Reduce Storage Usage Using Data Administration in Business Central"
 date: 2023-05-27T11:33:57+05:30
 draft: false
 tags: ['Business Central']
-categories: ['Technical', 'Functional']
+categories: ['Technical]
 summary: 'How to Reduce Storage Usage Using Data Administration in Business Central'
 featured_image: '/content/images/business-central/reduce-storage-usage-using-data-administration-in-business-central/Picture13.png'
 ---
@@ -59,7 +59,7 @@ All of the below options, open a similar processing report where you can set fil
 
 [![Picture 10](/content/images/business-central/reduce-storage-usage-using-data-administration-in-business-central/Picture10.png)](/content/images/business-central/reduce-storage-usage-using-data-administration-in-business-central/Picture10.png)
 
-The "Delete Detached Media" opens another page which I've discussed in depth in another blog. 
+The "Delete Detached Media" opens another page which I've discussed in depth in another [blog](/posts/business-central/automated-detached-media-cleanup/). 
  
 The second action groups hold actions which are meant to compress the ledger entries which can drastically reduce the storage space used. 
 
