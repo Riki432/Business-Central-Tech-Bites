@@ -3,7 +3,7 @@ title: "Reduce Storage Usage Using Data Administration in Business Central"
 date: 2023-05-27T11:33:57+05:30
 draft: false
 tags: ['Business Central']
-categories: ['Technical]
+categories: ['Technical']
 summary: 'How to Reduce Storage Usage Using Data Administration in Business Central'
 featured_image: '/content/images/business-central/reduce-storage-usage-using-data-administration-in-business-central/Picture13.png'
 ---
