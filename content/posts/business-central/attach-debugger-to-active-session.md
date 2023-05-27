@@ -33,5 +33,5 @@ Snapshot debugging it is then!
 
 ## Conclusion
 
-Thus, we saw how we can attach a debuger to an active user session in Business Central.
+Thus, we saw how we can attach a debugger to an active user session in Business Central.
 Happy Coding!
